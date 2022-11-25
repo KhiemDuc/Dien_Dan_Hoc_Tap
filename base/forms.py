@@ -9,7 +9,7 @@ from django import forms
 class MyUserCreationForm(UserCreationForm):
     class Meta:
         model = User
-        fields = ['nickname', 'username', 'email', 'password1', 'password2',]
+        fields = ['name','nickname', 'username', 'email', 'password1', 'password2',]
     
 
 
@@ -23,4 +23,4 @@ class RoomForm(ModelForm):
 class UserForm(ModelForm):
     class Meta:
         model = User
-        fields = ['avatar', 'name','nickname', 'email', 'bio',]
+        fields = ['avatar', 'name','nickname', 'bio',]
