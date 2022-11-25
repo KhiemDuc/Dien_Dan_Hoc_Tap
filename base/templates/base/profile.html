@@ -19,11 +19,11 @@
           <h3>{{user.name}}</h3>
           <p>@{{user.username}}</p>
           {% if request.user == user %}
-          <a href="{% url 'update-user' %}" class="btn btn--main btn--pill">Edit Profile</a>
+          <a href="{% url 'update-user' %}" class="btn btn--main btn--pill">Chỉnh sửa thông tin</a>
           {% endif %}
         </div>
         <div class="profile__about">
-          <h3>About</h3>
+          <h3>Thông tin cá nhân</h3>
           <p>
             {{user.bio}}
           </p>
@@ -32,7 +32,7 @@
 
       <div class="roomList__header">
         <div>
-          <h2>Study Rooms Hosted by dennis_ivy</a>
+          <h2>Phòng học tạo bởi {{user.name}}</a>
           </h2>
         </div>
       </div>

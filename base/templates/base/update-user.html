@@ -22,14 +22,15 @@
           {% csrf_token %}
 
           {% for field in form %}
-            <div class="form__group">
-              <label for="profile_pic">{{field.label}}</label>
-              {{field}}
-            </div>
+          <div class="form__group">
+            <label for="profile_pic">{{field.label}}</label>
+            {{field}}
+          </div>
           {% endfor %}
 
+
           <div class="form__action">
-            <a class="btn btn--dark" href="{% url 'home' %}">Cancel</a>
+            <a class="btn btn--dark" href="index.html">Cancel</a>
             <button class="btn btn--main" type="submit">Update</button>
           </div>
         </form>

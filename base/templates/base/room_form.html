@@ -14,7 +14,7 @@
               </path>
             </svg>
           </a>
-          <h3>Create/Update Study Room</h3>
+          <h3>Tạo/Cập nhật phòng</h3>
         </div>
       </div>
       <div class="layout__body">
@@ -22,7 +22,7 @@
           {% csrf_token %}
 
           <div class="form__group">
-            <label for="room_topic">Enter a Topic</label>
+            <label for="room_topic">Tên Chủ Đề</label>
             <input required type="text" value="{{room.topic.name}}" name="topic" list="topic-list" />
             <datalist id="topic-list">
               <select id="room_topic">
@@ -35,12 +35,12 @@
 
 
           <div class="form__group">
-            <label for="room_name">Room Name</label>
+            <label for="room_name">Tên Phòng</label>
             {{form.name}}
           </div>
 
           <div class="form__group">
-            <label for="room_description">Room Description</label>
+            <label for="room_description">Mô Tả</label>
             {{form.description}}
           </div>
 
@@ -59,8 +59,8 @@
 
 
           <div class="form__action">
-            <a class="btn btn--dark" href="{{request.META.HTTP_REFERER}}">Cancel</a>
-            <button class="btn btn--main" type="submit">Submit</button>
+            <a class="btn btn--dark" href="{{request.META.HTTP_REFERER}}">Trở lại</a>
+            <button class="btn btn--main" type="submit">Hoàn thành</button>
           </div>
         </form>
       </div>

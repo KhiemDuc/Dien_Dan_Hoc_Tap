@@ -1,6 +1,6 @@
 <div class="activities">
     <div class="activities__header">
-        <h2>Recent Activities</h2>
+        <h2>Hoạt Động Gần Đây</h2>
     </div>
     {% for message in room_messages %}
     <div class="activities__box">
@@ -30,7 +30,7 @@
 
         </div>
         <div class="activities__boxContent">
-            <p>replied to post “<a href="{% url 'room' message.room.id %}">{{message.room}}</a>”</p>
+            <p>trả lời bài đăng “<a href="{% url 'room' message.room.id %}">{{message.room}}</a>”</p>
             <div class="activities__boxRoomContent">{{message.body}}</div>
         </div>
     </div>
