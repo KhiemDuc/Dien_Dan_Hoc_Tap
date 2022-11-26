@@ -44,8 +44,8 @@
     <li>Django (python) + REST API + Web (html, js, css, bootstrap)</li>
 </ul>
 <ul>Đóng Góp:
-    <li>Nguyễn Duy Lĩnh: Vẽ UML + vẽ cây thư mục</li>
-    <li>Nguyễn Đức Khiêm + Nguyễn Tuấn Anh: Xây dựng chức năng và database</li>
+    <li>Nguyễn Duy Lĩnh: Vẽ UML + vẽ cây thư mục + Xây dựng giao diện</li>
+    <li>Nguyễn Đức Khiêm + Nguyễn Tuấn Anh:Xây dựng giao diện + Xây dựng chức năng và database</li>
     <li>Vũ Quang Huy + Phạm Công Duy: Xây dựng giao diện + vẽ sơ đồ ERD + viết báo cáo</li>
 </ul>
 <ul>Source code:
